@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'employee',
+    'index',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +126,6 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = 'assets'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = 'media'
